@@ -1,0 +1,8 @@
+com\jwth\controller\testController.class
+com\jwth\service\impl\testboServiceImpl.class
+com\jwth\mapper\testboMapper.class
+com\jwth\config\MybatisPlusConfig.class
+com\jwth\entity\testbo.class
+com\jwth\service\testboService.class
+com\jwth\developService.class
+com\jwth\service\impl\test.class

@@ -1,0 +1,15 @@
+﻿server:
+  port: 3377
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 49.233.255.24:8848
+      config:
+        server-addr: 49.233.255.24:8848
+        file-extension: yaml
+
+  # ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+ # nacos-config-client-dev.yaml
